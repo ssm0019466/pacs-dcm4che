@@ -1,0 +1,4 @@
+groupadd -r slapd-dcm4chee --gid=1021 && useradd -r -g slapd-dcm4chee --uid=1021 slapd-dcm4chee
+groupadd -r postgres-dcm4chee --gid=999 && useradd -r -g postgres-dcm4chee --uid=999 postgres-dcm4chee
+groupadd -r dcm4chee-arc --gid=1023 && useradd -r -g dcm4chee-arc --uid=1023 dcm4chee-arc
+groupadd -r keycloak-dcm4chee --gid=1029 && useradd -r -g keycloak-dcm4chee --uid=1029 keycloak-dcm4chee
